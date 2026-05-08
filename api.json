@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/stick-indian",
     "maintainers": [
       {
@@ -16,72 +16,127 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "stick-indian",
-    "name": "",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Stick Indian",
+    "aliases": [
+      { "name": "Tsiatko", "language": "Lushootseed / Salish (general)", "region": "Puget Sound" },
+      { "name": "Seatco", "language": "Anglicized form (Salish)", "region": "Pacific Northwest" },
+      { "name": "Siatco", "language": "Salish", "region": "Pacific Northwest" },
+      { "name": "Steta'l", "language": "Lushootseed", "meaning": "from ta'l, 'spear'" },
+      { "name": "Seeahtik / Seeahtkch", "language": "Lummi", "region": "Northwest Washington" },
+      { "name": "Stick Men", "region": "Plateau, English-language usage" },
+      { "name": "Stick people", "region": "Plateau, English-language usage" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Forest beings of Pacific Northwest Indigenous traditions",
+    "tags": [
+      "indigenous",
+      "pacific-northwest",
+      "forest-spirit",
+      "whistling",
+      "trickster",
+      "salish",
+      "yakama",
+      "plateau"
+    ],
+    "status": "active",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "A category of forest beings in the traditions of many Pacific Northwest Indigenous peoples (Salish, Yakama, Klickitat, Cayuse, Nez Perce, and others). Variously described as tall hairy giants or as small forest dwarves, they are most commonly known for whistling at travellers, leading people astray, and punishing those who disrespect the forest.",
+      "full": "'Stick Indian' is an English-language cover term for a class of dangerous forest beings appearing in the oral traditions of many Pacific Northwest Indigenous peoples — including the Salish-speaking Coast Salish and Puget Sound peoples, the Yakama, Klickitat, Cayuse, Nez Perce, Wenatchi, Colville, and others. The original Indigenous names (e.g. tsiatko, steta'l, seeahtik) refer to entities that vary substantially across nations: Salish traditions often describe them as tall, hairy, bigfoot-like giants who live in the deep forest, whereas Cayuse and Yakama traditions describe them more often as forest dwarves or 'little people'. Across traditions, the Stick Indians are characterised by whistling, mimicry of human voices, and the ability to lead travellers astray, paralyse, hypnotise, or in some accounts kidnap and even devour them. They are commonly invoked in moral instruction — never whistle at night in the woods, never answer a voice that calls your name from the trees, never speak ill of the forest. Many Pacific Northwest people regard 'Stick Indian' as an English euphemism, holding that pronouncing the original Indigenous name aloud risks attracting their attention; this aspect of the tradition remains active today."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Pacific Northwest Indigenous oral traditions; the English-language phrase 'Stick Indian' is a calque on a Plateau-region usage in which 'stick' translates a word meaning 'forest' or 'woods', so 'Stick Indians' literally means 'Indians of the woods'.",
+      "meaning": "'Stick' in regional Chinook Jargon and Plateau English means 'wood' or 'forest'; the term names beings of the woods. Indigenous names (tsiatko, seeahtik, steta'l) carry their own etymologies in the relevant languages.",
+      "first_use": "19th-century Plateau English usage; recorded in early-20th-century ethnographies of Pacific Northwest peoples"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Forest being",
+      "subtype": "Indigenous Pacific Northwest forest people"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bigfoot", "name": "Bigfoot / Sasquatch", "relationship": "related", "description": "Large hairy hominid of Pacific Northwest folklore; conflated with Salish Stick Indian / seeahtik traditions" },
+      { "id": "ts-emekwes", "name": "Ts'emekwes", "relationship": "regional_variant", "description": "Lummi term for forest hairy giants" },
+      { "id": "little-people", "name": "Little people", "relationship": "similar", "description": "Continent-wide North American Indigenous traditions of forest dwarves" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.6, "max": 2.4, "unit": "meters", "confidence": "variable" },
+      "coloration": ["dark brown", "black", "varies by tradition"],
+      "features": [
+        { "feature": "Tall, hairy, bigfoot-like build (Salish form)", "description": "Coast Salish and Puget Sound traditions describe Stick Indians as towering hair-covered humanoids", "frequency": "common" },
+        { "feature": "Small, forest-dwarf build (Plateau form)", "description": "Cayuse, Yakama, and other Plateau traditions describe them as small forest people, sometimes the size of children", "frequency": "common" },
+        { "feature": "Forest-coloured camouflage", "description": "Beings are reported as exceptionally hard to see in woodland", "frequency": "always" }
+      ],
+      "morphology": "Form varies markedly between Salish (hairy giant) and Plateau (forest dwarf) traditions; in either form, beings are distinctly human-like but apart from humans."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Whistling", "description": "The signature sign of Stick Indians is whistling at human travellers in the woods, often imitating bird calls or human whistles", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Voice mimicry", "description": "They reportedly mimic the voices of relatives and friends, calling travellers' names from the trees to lure them away", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Hypnotism / leading astray", "description": "Some traditions describe the ability to confuse or hypnotise travellers, causing them to wander lost or even go insane", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Paralysis", "description": "In some accounts the beings can paralyse travellers who follow them or speak disrespectfully", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Stealth movement", "description": "Reported to move silently through dense forest", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Kidnapping or devouring", "description": "In the most malevolent traditions (notably some Salish forms), Stick Indians abduct children, molest women, or eat humans they capture", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["dense forest", "deep woods", "mountainous Pacific Northwest wilderness", "shadowed canyons"],
+      "patterns": [
+        "Active especially at night and in the silent stretches of woodland",
+        "Take aggressive revenge on those who disrespect the forest, however unintentionally",
+        "Avoid camps with respectful travellers and those who follow proper etiquette",
+        "Considered most dangerous to those who whistle back or answer voices in the trees"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Traditional homelands of Pacific Northwest peoples whose oral traditions include Stick Indian / tsiatko / seeahtik beings — including the Coast Salish region of present-day Washington and southwestern British Columbia, the Plateau (Yakama, Klickitat, Cayuse, Nez Perce, Wenatchi, Colville, Spokane), and the Olympic Peninsula.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "Pacific Northwest",
+        "Puget Sound",
+        "Olympic Peninsula",
+        "Columbia Plateau",
+        "Yakama lands",
+        "Coast Salish territories"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Indigenous oral traditions of the Pacific Northwest, predating European contact"
       }
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Long-standing Indigenous oral traditions of Pacific Northwest peoples, in which beings of the deep forest function as guardians of proper conduct, embodiments of the danger of the wilderness, and (in some traditions) literal forest people distinct from humans.",
+      "earliest_accounts": "Pre-contact oral tradition. Earliest written records appear in late-19th and early-20th-century ethnographies of Salish and Plateau peoples; the term 'Stick Indian' is recorded in Plateau English by the 19th century.",
+      "folklore_connections": "Continuous with broader North American 'forest people' and 'little people' traditions; in the Salish form, partly continuous with the Sasquatch / Bigfoot tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-contact", "event": "Salish, Yakama, Klickitat, Cayuse, Nez Perce, and other Pacific Northwest peoples carry oral traditions of tsiatko / seeahtik / steta'l / Stick Indian beings", "source": "Indigenous oral traditions" },
+      { "date": "19th century", "event": "The English-language term 'Stick Indians' (calque on Plateau usage in which 'stick' = 'wood/forest') is in use among non-Indigenous settlers in the Pacific Northwest", "source": "Plateau English usage; later ethnographic record" },
+      { "date": "Early 20th century", "event": "Ethnographies of Pacific Northwest peoples record tsiatko, steta'l, seeahtik, and related beings", "source": "Ethnographic record (Smithsonian Bureau of American Ethnology and University of Washington fieldwork)" }
+    ],
+    "modern_era": "Stick Indian traditions remain active. Many Pacific Northwest people decline to say the original Indigenous names aloud, considering the act provocative; storytellers warn children against whistling at night in the woods. The tradition has also been engaged by cryptozoological writers who treat the Salish-form Stick Indian as a regional Bigfoot tradition — a framing distinct from, and not always welcomed by, the Indigenous communities that maintain the original beliefs."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +147,88 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Forest spirits / non-human persons",
+        "description": "Indigenous traditions hold the beings to be real persons of the forest, distinct from humans, with their own social order and moral expectations of human behaviour.",
+        "proponents": ["Coast Salish elders and storytellers", "Yakama, Klickitat, Cayuse, Nez Perce traditions"],
+        "evidence_cited": ["Continuous oral tradition", "Cultural protocols regarding speech in the woods"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural pedagogy and natural mimicry",
+        "description": "From an outside-academic vantage, Stick Indian traditions function in part as moral instruction (do not wander alone, do not disrespect the forest) and explanations for genuinely strange forest sounds — wind in trees, owl calls, marten and weasel chatter — that imitate human whistles or voices.",
+        "proponents": ["Academic folklorists"],
+        "evidence_cited": ["Pedagogic content of the stories", "Acoustic mimicry by known fauna"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Coast Salish tsiatko / steta'l traditions",
+        "Lummi seeahtik tradition",
+        "Yakama, Klickitat, Cayuse forest-dwarf traditions",
+        "Nez Perce, Wenatchi, Colville, Spokane Stick Indian stories"
+      ],
+      "stories": [
+        "Travellers led astray by whistling in the woods",
+        "Children taken from camps by Stick Indians",
+        "Hunters punished for disrespecting the forest"
+      ],
+      "beliefs": "Stick Indians are widely understood as real persons of the forest who must be respected. Common rules: do not whistle at night; do not answer a voice that calls your name from the trees; do not speak arrogantly or mockingly while hunting; treat the forest with reverence."
+    },
+    "indigenous": {
+      "cultures": [
+        "Coast Salish (Lushootseed-speaking peoples)",
+        "Lummi",
+        "Puget Sound Salish peoples",
+        "Yakama",
+        "Klickitat",
+        "Cayuse",
+        "Nez Perce",
+        "Wenatchi",
+        "Colville",
+        "Spokane",
+        "Klallam",
+        "Chehalis"
+      ],
+      "significance": "Integral to Pacific Northwest knowledge systems about the forest and proper conduct in the wilderness. Stick Indian traditions are a living part of these cultures and are pedagogically transmitted to children.",
+      "sensitivity_note": "'Stick Indian' is itself an English euphemism: in many traditions, naming the beings in their own language is considered to risk attracting their attention. Outside writers should not assume entitlement to translate or print Indigenous names without community consent.",
+      "respect_guidelines": "Consult tribal cultural authorities before using Indigenous names. Avoid conflating Stick Indian traditions with non-Indigenous cryptozoology. Cite Indigenous storytellers and authorities directly. Do not commercialise or appropriate ceremonies or stories."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Frequent treatment in regional Pacific Northwest paranormal and cryptozoology compilations"
+      ],
       "film_tv": [],
       "games": [],
       "other": []
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No ongoing scientific research; treatment is primarily by folklorists, Indigenous storytellers, and cultural authorities."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "native-languages-stick-indians", "type": "website", "title": "Native American Legends: Stick Indians", "publication": "native-languages.org (Native Languages of the Americas)", "url": "http://www.native-languages.org/morelegends/stick-indians.htm", "accessed": "2026-05-07" },
+    { "id": "native-languages-seatco", "type": "website", "title": "Seatco, the Night People (Siatco, Tsiatko, Seeahtik)", "publication": "native-languages.org", "url": "https://www.native-languages.org/morelegends/seatco.htm", "accessed": "2026-05-07" }
+  ]
 }
